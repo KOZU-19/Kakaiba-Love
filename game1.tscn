@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://dn46218a037p4"]
+
+[node name="Node2D" type="Node2D" unique_id=1054605908]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=447376484]
+offset_left = -18.0
+offset_top = -22.0
+offset_right = 664.0
+offset_bottom = 357.0
+color = Color(0.83431184, 0.47070062, 0.44833505, 1)
+
+[node name="ColorRect" type="ColorRect" parent="ColorRect" unique_id=568530391]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 119.0
+offset_right = 223.0
+offset_bottom = 292.0
+color = Color(0.3592645, 0.4669466, 0.49727613, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="ColorRect" unique_id=512293331]
+layout_mode = 0
+offset_left = 253.0
+offset_top = 116.0
+offset_right = 418.0
+offset_bottom = 289.0
+color = Color(0.3592645, 0.4669466, 0.49727613, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="ColorRect" unique_id=934125491]
+layout_mode = 0
+offset_left = 444.0
+offset_top = 114.0
+offset_right = 609.0
+offset_bottom = 287.0
+color = Color(0.46174312, 0.44379023, 0.41406417, 1)
+
+[node name="Label" type="Label" parent="ColorRect/ColorRect3" unique_id=1648642949]
+layout_mode = 0
+offset_left = -386.0
+offset_top = -39.0
+offset_right = -227.0
+offset_bottom = -16.0
+text = "Choose the odd one out!"

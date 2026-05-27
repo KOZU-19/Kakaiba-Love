@@ -1,0 +1,88 @@
+[gd_scene format=3 uid="uid://cg1lmxp2ficit"]
+
+[ext_resource type="PackedScene" uid="uid://5042jsei7216" path="res://platform.tscn" id="1_oornv"]
+[ext_resource type="Texture2D" uid="uid://bgvbcdquaxrdu" path="res://Untitled87_20260526215723.png" id="2_pma5d"]
+[ext_resource type="Texture2D" uid="uid://bd1k53fc303mr" path="res://Untitled86_20260526221442.png" id="3_glg8j"]
+
+[node name="Node2D" type="Node2D" unique_id=1669944036]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1486995349]
+offset_left = -177.0
+offset_top = -218.0
+offset_right = 1555.0
+offset_bottom = 719.0
+color = Color(0.34767216, 0.049110778, 0.18527216, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=790510742]
+offset_left = -177.0
+offset_top = -218.0
+offset_right = 1555.0
+offset_bottom = -44.0
+color = Color(0.65067595, 0.7121183, 0.5981452, 1)
+
+[node name="Node2D" parent="." unique_id=893110346 instance=ExtResource("1_oornv")]
+position = Vector2(508, 85)
+scale = Vector2(1.88, 1.88)
+
+[node name="Label" type="Label" parent="Node2D" unique_id=1359120145]
+offset_left = 13.829787
+offset_top = -46.80851
+offset_right = 158.82979
+offset_bottom = -23.80851
+text = "Kaka is thinking....."
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=982202548]
+position = Vector2(176, 451)
+scale = Vector2(0.30887204, 0.32299158)
+texture = ExtResource("2_pma5d")
+
+[node name="ColorRect" type="ColorRect" parent="Sprite2D2" unique_id=158153998]
+offset_left = 64.751755
+offset_top = 102.169815
+offset_right = 686.36847
+offset_bottom = 306.50946
+
+[node name="ColorRect2" type="ColorRect" parent="Sprite2D2" unique_id=1904534334]
+offset_left = -3.2375717
+offset_top = 374.6227
+offset_right = 1168.7688
+offset_bottom = 764.7258
+
+[node name="ColorRect2" type="ColorRect" parent="Sprite2D2/ColorRect2" unique_id=1747739346]
+layout_mode = 0
+offset_left = 2191.8462
+offset_top = -30.960625
+offset_right = 3049.8064
+offset_bottom = 297.22137
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=270193106]
+position = Vector2(668, 299.00003)
+scale = Vector2(0.30887204, 0.32299158)
+zoom = Vector2(0.743, 0.743)
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=604481348]
+position = Vector2(1246, 412.00003)
+scale = Vector2(0.3874512, 0.36360678)
+texture = ExtResource("3_glg8j")
+
+[node name="ColorRect" type="ColorRect" parent="Sprite2D3" unique_id=1136724755]
+offset_left = -652.9853
+offset_top = 198.01604
+offset_right = -247.77313
+offset_bottom = 294.27386
+
+[node name="ColorRect" type="ColorRect" parent="Sprite2D3/ColorRect" unique_id=1327184558]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.86700004
+anchor_bottom = 0.208
+offset_right = -311.31897
+offset_bottom = 19.97837
+
+[node name="Label" type="Label" parent="." unique_id=791945214]
+offset_left = 907.0
+offset_top = -18.0
+offset_right = 1063.0
+offset_bottom = 77.0
+theme_override_font_sizes/font_size = 69
+text = "30"

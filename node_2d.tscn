@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://qb6rfyhadyao"]
+
+[node name="Node2D2" type="Node2D" unique_id=970816905]
+
+[node name="ColorPickerButton" type="ColorPickerButton" parent="." unique_id=791536093]
+offset_right = 55174.0
+offset_bottom = 34643.0
+text = "whjuuuuuuuuuuuuuuu"
+color = Color(0.8028118, 0.3754647, 0.6675927, 1)

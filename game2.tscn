@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dl3fv6u2esatf"]
+
+[node name="Node2D" type="Node2D" unique_id=1632954691]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1730320961]
+offset_right = 1172.0
+offset_bottom = 704.0
+color = Color(0.31299537, 0.28734288, 0.49215668, 1)
+
+[node name="Label" type="Label" parent="ColorRect" unique_id=1989066104]
+layout_mode = 0
+offset_right = 565.0
+offset_bottom = 60.0
+theme_override_font_sizes/font_size = 33
+text = "environmental storyteling, kayak relationship but in platfomer"
